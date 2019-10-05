@@ -5,7 +5,6 @@ import MovieCard from "./MovieCard.js";
 
 const Movie = props => {
   const [movie, setMovie] = useState();
-
   const id = props.match.params.id;
 
   useEffect(() => {
